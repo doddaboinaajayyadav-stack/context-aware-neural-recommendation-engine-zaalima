@@ -1,0 +1,23 @@
+dataset:
+  name: "H&M Personalized Fashion Recommendations"
+  source: "Kaggle"
+  description: "Personalized fashion recommendation dataset containing customer, article, and transaction data."
+
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+
+files:
+  customers: "customers.csv"
+  articles: "articles.csv"
+  transactions: "transactions_train.csv"
+
+expected_components:
+  - customers
+  - articles
+  - transactions
+
+processing:
+  date_column: "t_dat"
+  customer_id_column: "customer_id"
+  article_id_column: "article_id"
