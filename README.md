@@ -121,3 +121,13 @@ engine.
 
 ```text
 14 tests passed
+
+### Day 6 — User Interaction Feature Engineering
+
+- Implemented customer-level behavioral feature generation.
+- Added interaction count and unique article count.
+- Added first and last interaction dates.
+- Added configurable recency calculation.
+- Added transaction-date validation.
+- Added 10 automated tests.
+- **Test status: 33 total tests passing.**
