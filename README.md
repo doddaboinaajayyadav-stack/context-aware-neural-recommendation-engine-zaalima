@@ -131,3 +131,13 @@ engine.
 - Added transaction-date validation.
 - Added 10 automated tests.
 - **Test status: 33 total tests passing.**
+
+### Day 7 — Item Metadata Feature Engineering
+
+- Implemented item-level metadata feature generation.
+- Added product and category metadata handling.
+- Added missing categorical-value handling using `Unknown`.
+- Added text normalization for available metadata.
+- Added unique category counting.
+- Added 10 automated tests.
+- **Test status: 43 total tests passing.**
