@@ -142,3 +142,31 @@ engine.
 - Added 10 automated tests.
 - **Test status: 43 total tests passing.**
 
+### Day 8 — Contextual Feature Engineering
+
+- Implemented contextual feature generation.
+- Added transaction date-based contextual features.
+- Added temporal feature extraction.
+- Added contextual data validation.
+- Added automated tests for contextual feature generation.
+- **Test status: 53 total tests passing.**
+
+### Day 9 — Feature Integration
+
+- Integrated user, item, and contextual feature tables.
+- Added validation for feature join keys.
+- Preserved transaction-level records during feature integration.
+- Created a unified recommendation feature table.
+- Added automated tests for feature integration.
+
+### Day 10 — Feature Encoding & Normalization
+
+- Implemented categorical feature encoding.
+- Added deterministic category mappings.
+- Added missing categorical-value handling.
+- Implemented numerical min-max normalization.
+- Added handling for constant numerical features.
+- Added model-ready feature preparation.
+- Added automated tests for feature encoding and normalization.
+- **Feature integration and encoding pipeline completed.**
+
