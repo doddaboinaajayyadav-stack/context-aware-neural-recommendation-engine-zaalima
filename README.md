@@ -142,16 +142,3 @@ engine.
 - Added 10 automated tests.
 - **Test status: 43 total tests passing.**
 
-### Day 11 — Training Dataset Construction
-
-- Implemented training dataset construction from user-item interactions.
-- Added positive interaction example generation.
-- Added negative item sampling from unseen articles.
-- Added duplicate interaction handling.
-- Added validation for negative sampling ratios.
-- Added customer-level train/validation/test splitting.
-- Prevented customer leakage across dataset splits.
-- Added reproducible dataset construction and splitting.
-- Added 15 automated tests.
-- **Test status: 87 total tests passing.**
-
