@@ -154,3 +154,13 @@ engine.
 - Added model checkpoint save/load support.
 - Added 13 automated training tests.
 - **Test status: 140 total tests passing.**
+
+
+### Candidate Retrieval
+
+- Added embedding-based candidate retrieval.
+- Implemented cosine-similarity ranking.
+- Added Top-K candidate selection.
+- Added item catalog validation.
+- Added 13 automated retrieval tests.
+- **Test status: 153 total tests passing.**
