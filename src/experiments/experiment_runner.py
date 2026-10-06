@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import json
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Any
 
 
@@ -42,9 +44,18 @@ class ExperimentResult:
             "metrics": dict(self.metrics),
         }
 
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> ExperimentResult:
+        """Create an experiment result from a dictionary."""
+        return cls(
+            experiment_name=data["experiment_name"],
+            metrics=dict(data["metrics"]),
+            parameters=dict(data.get("parameters", {})),
+        )
+
 
 class ExperimentRunner:
-    """Track and compare recommendation experiments."""
+    """Track, compare, save, and load recommendation experiments."""
 
     def __init__(self) -> None:
         self.results: list[ExperimentResult] = []
@@ -84,10 +95,51 @@ class ExperimentRunner:
                 )
 
         return (
-            max(self.results, key=lambda result: result.metrics[metric])
+            max(
+                self.results,
+                key=lambda result: result.metrics[metric],
+            )
             if maximize
-            else min(self.results, key=lambda result: result.metrics[metric])
+            else min(
+                self.results,
+                key=lambda result: result.metrics[metric],
+            )
         )
+
+    def save_results(self, path: str | Path) -> None:
+        """Save all experiment results to a JSON file."""
+        output_path = Path(path)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+
+        data = [result.as_dict() for result in self.results]
+
+        output_path.write_text(
+            json.dumps(data, indent=2),
+            encoding="utf-8",
+        )
+
+    def load_results(self, path: str | Path) -> None:
+        """Load experiment results from a JSON file."""
+        input_path = Path(path)
+
+        if not input_path.exists():
+            raise FileNotFoundError(
+                f"Experiment results file not found: {input_path}"
+            )
+
+        data = json.loads(
+            input_path.read_text(encoding="utf-8")
+        )
+
+        if not isinstance(data, list):
+            raise ValueError(
+                "Experiment results file must contain a JSON list."
+            )
+
+        self.results = [
+            ExperimentResult.from_dict(item)
+            for item in data
+        ]
 
     def clear(self) -> None:
         """Remove all recorded experiment results."""
