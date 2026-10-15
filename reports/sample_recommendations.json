@@ -12,28 +12,6 @@
   },
   {
     "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
-    "article_id": "0685687004",
-    "product_name": "W YODA KNIT OL OFFER",
-    "product_type": "Sweater",
-    "product_group": "Garment Upper body",
-    "colour": "Dark Green",
-    "department": "Campaigns",
-    "description": "V-neck knitted jumper with long sleeves and ribbing around the neckline, cuffs and hem.",
-    "score": 0.282596
-  },
-  {
-    "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
-    "article_id": "0685687001",
-    "product_name": "W YODA KNIT OL OFFER",
-    "product_type": "Sweater",
-    "product_group": "Garment Upper body",
-    "colour": "Dark Grey",
-    "department": "Campaigns",
-    "description": "V-neck knitted jumper with long sleeves and ribbing around the neckline, cuffs and hem.",
-    "score": 0.232178
-  },
-  {
-    "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
     "article_id": "0562245001",
     "product_name": "Luna skinny RW",
     "product_type": "Trousers",
@@ -108,5 +86,27 @@
     "department": "Tops Knitwear",
     "description": "Fitted top in a fine rib knit with long sleeves and a ribbed neckline.",
     "score": 0.201095
+  },
+  {
+    "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
+    "article_id": "0667491011",
+    "product_name": "Bloom",
+    "product_type": "Shirt",
+    "product_group": "Garment Upper body",
+    "colour": "Dark Red",
+    "department": "Blouse",
+    "description": "Long-sleeved blouse in woven fabric with a small frilled collar with ties and a V-neck. Raglan sleeves with smocking and a frill at the cuffs.",
+    "score": 0.197537
+  },
+  {
+    "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
+    "article_id": "0662868002",
+    "product_name": "Daisy",
+    "product_type": "Sweater",
+    "product_group": "Garment Upper body",
+    "colour": "Dark Grey",
+    "department": "Knitwear",
+    "description": "Jumper in a soft knit containing some wool with a wide, ribbed polo neck, low dropped shoulders and ribbing at the cuffs and hem. Slightly longer at the back.",
+    "score": 0.187533
   }
 ]
