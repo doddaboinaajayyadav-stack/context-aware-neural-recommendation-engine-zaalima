@@ -1,17 +1,6 @@
 [
   {
     "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
-    "article_id": "0685687004",
-    "product_name": "W YODA KNIT OL OFFER",
-    "product_type": "Sweater",
-    "product_group": "Garment Upper body",
-    "colour": "Dark Green",
-    "department": "Campaigns",
-    "description": "V-neck knitted jumper with long sleeves and ribbing around the neckline, cuffs and hem.",
-    "score": 0.964733
-  },
-  {
-    "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
     "article_id": "0685687003",
     "product_name": "W YODA KNIT OL OFFER",
     "product_type": "Sweater",
@@ -19,18 +8,29 @@
     "colour": "Pink",
     "department": "Campaigns",
     "description": "V-neck knitted jumper with long sleeves and ribbing around the neckline, cuffs and hem.",
-    "score": 0.957873
+    "score": 0.300135
   },
   {
     "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
-    "article_id": "0610776002",
-    "product_name": "Tilly (1)",
-    "product_type": "T-shirt",
+    "article_id": "0685687004",
+    "product_name": "W YODA KNIT OL OFFER",
+    "product_type": "Sweater",
     "product_group": "Garment Upper body",
-    "colour": "Black",
-    "department": "Jersey Basic",
-    "description": "T-shirt in lightweight jersey with a rounded hem. Slightly longer at the back.",
-    "score": 0.946789
+    "colour": "Dark Green",
+    "department": "Campaigns",
+    "description": "V-neck knitted jumper with long sleeves and ribbing around the neckline, cuffs and hem.",
+    "score": 0.282596
+  },
+  {
+    "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
+    "article_id": "0685687001",
+    "product_name": "W YODA KNIT OL OFFER",
+    "product_type": "Sweater",
+    "product_group": "Garment Upper body",
+    "colour": "Dark Grey",
+    "department": "Campaigns",
+    "description": "V-neck knitted jumper with long sleeves and ribbing around the neckline, cuffs and hem.",
+    "score": 0.232178
   },
   {
     "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
@@ -41,18 +41,7 @@
     "colour": "Black",
     "department": "Trouser",
     "description": "5-pocket jeans in washed, superstretch denim with a regular waist, zip fly and button, and skinny legs.",
-    "score": 0.945696
-  },
-  {
-    "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
-    "article_id": "0667491011",
-    "product_name": "Bloom",
-    "product_type": "Shirt",
-    "product_group": "Garment Upper body",
-    "colour": "Dark Red",
-    "department": "Blouse",
-    "description": "Long-sleeved blouse in woven fabric with a small frilled collar with ties and a V-neck. Raglan sleeves with smocking and a frill at the cuffs.",
-    "score": 0.936298
+    "score": 0.229854
   },
   {
     "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
@@ -63,7 +52,18 @@
     "colour": "Black",
     "department": "Basic 1",
     "description": "Long-sleeved top in soft cotton jersey with ribbing around the neckline and cuffs.",
-    "score": 0.924896
+    "score": 0.224104
+  },
+  {
+    "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
+    "article_id": "0573085014",
+    "product_name": "Madison skinny HW (1)",
+    "product_type": "Trousers",
+    "product_group": "Garment Lower body",
+    "colour": "Dark Grey",
+    "department": "Trouser",
+    "description": "5-pocket jeans in washed stretch denim with a high waist, zip fly and slim legs.",
+    "score": 0.210592
   },
   {
     "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
@@ -74,18 +74,29 @@
     "colour": "Black",
     "department": "Swimwear",
     "description": "Triangle bikini top with lined cups, laser-cut, scalloped edges and narrow, adjustable shoulder straps that can also be fastened across the back. Wide elasticated hem and a metal fastener at the back.",
-    "score": 0.924194
+    "score": 0.209884
   },
   {
     "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
-    "article_id": "0662868002",
-    "product_name": "Daisy",
+    "article_id": "0662857005",
+    "product_name": "Cindererlla",
     "product_type": "Sweater",
     "product_group": "Garment Upper body",
-    "colour": "Dark Grey",
+    "colour": "Beige",
     "department": "Knitwear",
-    "description": "Jumper in a soft knit containing some wool with a wide, ribbed polo neck, low dropped shoulders and ribbing at the cuffs and hem. Slightly longer at the back.",
-    "score": 0.92348
+    "description": "Jumper in a soft, fine knit with dropped shoulders, long sleeves and wide ribbing around the neckline, cuffs and hem.",
+    "score": 0.20145
+  },
+  {
+    "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
+    "article_id": "0539723005",
+    "product_name": "Jade Denim TRS",
+    "product_type": "Trousers",
+    "product_group": "Garment Lower body",
+    "colour": "Light Blue",
+    "department": "Trousers",
+    "description": "High-waisted jeans in washed superstretch denim with a zip fly and button, fake front pockets, real back pockets and super-skinny legs.",
+    "score": 0.201441
   },
   {
     "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
@@ -96,17 +107,6 @@
     "colour": "Red",
     "department": "Tops Knitwear",
     "description": "Fitted top in a fine rib knit with long sleeves and a ribbed neckline.",
-    "score": 0.923367
-  },
-  {
-    "customer_id": "000aa7f0dc06cd7174389e76c9e132a67860c5f65f970699daccc14425ac31a8",
-    "article_id": "0562245004",
-    "product_name": "Luna skinny RW",
-    "product_type": "Trousers",
-    "product_group": "Garment Lower body",
-    "colour": "Blue",
-    "department": "Trouser",
-    "description": "5-pocket jeans in washed, superstretch denim with a regular waist, zip fly and button, and skinny legs.",
-    "score": 0.920119
+    "score": 0.201095
   }
 ]

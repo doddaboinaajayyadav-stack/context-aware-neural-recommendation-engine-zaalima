@@ -64,16 +64,25 @@ def main():
     ranked_indices = torch.argsort(scores, descending=True).tolist()
 
     recommendations = []
+    seen_product_names = set()
+
     for idx in ranked_indices:
         article_id = item_ids[idx]
         if article_id not in article_lookup.index:
             continue
 
         product = article_lookup.loc[article_id]
+        product_name = str(product["prod_name"]).strip()
+        normalized_name = product_name.casefold()
+
+        if normalized_name in seen_product_names:
+            continue
+
+        seen_product_names.add(normalized_name)
         recommendations.append({
             "customer_id": customer_id,
             "article_id": article_id,
-            "product_name": str(product["prod_name"]),
+            "product_name": product_name,
             "product_type": str(product["product_type_name"]),
             "product_group": str(product["product_group_name"]),
             "colour": str(product["colour_group_name"]),
