@@ -174,3 +174,23 @@ engine.
 - Generated reports: `reports/hm_sample_training_report.json`, `reports/hm_ranking_evaluation.json`, and `reports/sample_recommendations.json`.
 
 **Limitations:** These are preliminary sampled-data results using a random interaction split, not production benchmarks.
+
+## Popularity Baseline Comparison
+
+The popularity baseline ranks articles by purchase frequency in the training interactions only. Both methods were evaluated on the same seeded random interaction split for 1,009 users.
+
+| Metric | Two-Tower | Popularity Baseline |
+|---|---:|---:|
+| Precision@5 | 0.0103 | 0.0131 |
+| Recall@5 | 0.0243 | 0.0343 |
+| Hit Rate@5 | 0.0515 | 0.0634 |
+| NDCG@5 | 0.0231 | 0.0274 |
+| Precision@10 | 0.0074 | 0.0098 |
+| Recall@10 | 0.0371 | 0.0533 |
+| Hit Rate@10 | 0.0704 | 0.0932 |
+| NDCG@10 | 0.0278 | 0.0344 |
+
+**Finding:** The popularity baseline outperformed the Two-Tower model on all eight reported ranking metrics in this experiment. These preliminary results use a sampled catalogue and a random interaction split, not a temporal or production benchmark.
+
+Baseline report: `reports/hm_popularity_baseline.json`.
+

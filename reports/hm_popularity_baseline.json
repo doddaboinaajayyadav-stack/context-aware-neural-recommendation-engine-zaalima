@@ -1,0 +1,27 @@
+{
+  "dataset": "H&M Personalized Fashion Recommendations",
+  "method": "Popularity baseline",
+  "evaluation_type": "same seeded random interaction split as Two-Tower evaluator",
+  "seed": 42,
+  "sampled_transaction_row_limit": 100000,
+  "test_positive_interactions": 1874,
+  "evaluated_users": 1009,
+  "skipped_users": 0,
+  "candidate_catalog_size": 1848,
+  "metrics": {
+    "precision_at_5": 0.013082259663032707,
+    "recall_at_5": 0.034258341592335644,
+    "hit_rate_at_5": 0.06342913776015857,
+    "ndcg_at_5": 0.027357239073207147,
+    "precision_at_10": 0.00981169474727453,
+    "recall_at_10": 0.05329652178016896,
+    "hit_rate_at_10": 0.0931615460852329,
+    "ndcg_at_10": 0.03440684598468144
+  },
+  "limitations": [
+    "Uses a sampled catalogue, not the full H&M catalogue.",
+    "Popularity is calculated from training interactions only.",
+    "Random interaction split, not a temporal evaluation.",
+    "Metrics describe this sampled experiment only."
+  ]
+}
