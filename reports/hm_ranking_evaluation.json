@@ -1,0 +1,27 @@
+{
+  "dataset": "H&M Personalized Fashion Recommendations",
+  "evaluation_type": "preliminary random interaction split",
+  "seed": 42,
+  "sampled_transaction_row_limit": 100000,
+  "checkpoint": "models\\hm_two_tower_sample.pt",
+  "test_positive_interactions": 1874,
+  "evaluated_users": 1009,
+  "skipped_users": 0,
+  "candidate_catalog_size": 1848,
+  "metrics": {
+    "precision_at_5": 0.01030723488602577,
+    "recall_at_5": 0.024314502808060783,
+    "hit_rate_at_5": 0.05153617443012884,
+    "ndcg_at_5": 0.02306720361636567,
+    "precision_at_10": 0.007433102081268583,
+    "recall_at_10": 0.03711595639246779,
+    "hit_rate_at_10": 0.07036669970267592,
+    "ndcg_at_10": 0.027805493139836553
+  },
+  "limitations": [
+    "Uses a sampled catalogue, not the full H&M catalogue.",
+    "Random interaction split, not a temporal evaluation.",
+    "Only training interactions are excluded from candidates; held-out positives remain eligible.",
+    "Metrics describe this sampled experiment only."
+  ]
+}

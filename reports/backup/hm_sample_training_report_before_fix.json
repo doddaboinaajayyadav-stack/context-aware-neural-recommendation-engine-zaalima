@@ -1,0 +1,21 @@
+{
+  "dataset": "H&M Personalized Fashion Recommendations",
+  "sampled_transaction_rows": 11948,
+  "unique_positive_pairs": 9367,
+  "customers": 1425,
+  "articles": 1848,
+  "train_examples": 14986,
+  "test_examples": 3748,
+  "epochs": 3,
+  "training_loss_by_epoch": [
+    0.6911515984105027,
+    0.656479916282383,
+    0.623198779652597
+  ],
+  "sampled_test_accuracy": 0.5939167556029883,
+  "sampled_test_precision": 0.6131105398457584,
+  "sampled_test_recall": 0.5090715048025614,
+  "sampled_test_roc_auc": 0.6187718472975697,
+  "evaluation_note": "Preliminary binary metrics on random held-out interactions with sampled negatives; not full-catalog Recall@K or NDCG.",
+  "checkpoint": "models\\hm_two_tower_sample.pt"
+}

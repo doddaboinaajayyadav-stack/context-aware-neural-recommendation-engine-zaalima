@@ -164,3 +164,13 @@ engine.
 - Added item catalog validation.
 - Added 13 automated retrieval tests.
 - **Test status: 153 total tests passing.**
+## Current Results
+
+- Dataset: H&M fashion transactions and article metadata.
+- Model: PyTorch Two-Tower recommendation model.
+- Training ROC-AUC: 0.6169 on the sampled experiment.
+- Precision@5: 0.0103; Recall@5: 0.0243; NDCG@5: 0.0231.
+- Precision@10: 0.0074; Recall@10: 0.0371; NDCG@10: 0.0278.
+- Generated reports: `reports/hm_sample_training_report.json`, `reports/hm_ranking_evaluation.json`, and `reports/sample_recommendations.json`.
+
+**Limitations:** These are preliminary sampled-data results using a random interaction split, not production benchmarks.
